@@ -90,7 +90,8 @@ p {
 }
 .tracks {
     font-family: "Patrick Hand SC";
-    font-size: 25px;
+	font-size: 20px;
+	padding-left: 50px;
 }
 #receipt {
 	clear: both;
@@ -99,15 +100,15 @@ p {
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	margin: 25px auto;
+	margin: 20px auto;
 }
 .listContainer {
-	background-image: url('newPaper.png');
+	background-image: url('doodles.png');
 	/* background-position: center; */
     width: 677px;
-    background-size: 675px;
+    background-size: 680px;
 	filter: brightness(110%);
-    padding: 50px;
+    padding: 55px;
     /* padding-left: 60px; */
 }
 .begin {
