@@ -95,7 +95,7 @@ p {
 	padding-left: 50px;
 	padding-top: 10px;
 }
-#receipt {
+#to-do-list {
 	clear: both;
 	display: flex;
 	flex-direction: column;
@@ -106,8 +106,9 @@ p {
 }
 .listContainer {
 	background-image: url('doodles3.png');
-	/* background-position: center; */
-    width: 682px;
+	background-position: relative;
+	width: 682px;
+	height: 680px;
     background-size: 682px;
 	filter: brightness(110%);
     padding: 52px;
@@ -160,9 +161,6 @@ td {
 	}
 }
 @media only screen and (max-width: 4000px) {
-	/* #options {
-		flex-direction: column;
-	} */
 	#loggedin,
 	#login {
 		width: 100%;
@@ -170,7 +168,4 @@ td {
 	.btn {
 		margin: 1vh auto;
 	}
-	/* .container {
-		width: 100%;
-	} */
 }

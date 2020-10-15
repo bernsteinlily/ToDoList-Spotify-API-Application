@@ -20,7 +20,7 @@
 
 	var userProfileSource = document.getElementById('user-profile-template').innerHTML,
 		userProfileTemplate = Handlebars.compile(userProfileSource),
-		userProfilePlaceholder = document.getElementById('receipt');
+		userProfilePlaceholder = document.getElementById('to-do-list');
 
 	var params = getHashParams();
 

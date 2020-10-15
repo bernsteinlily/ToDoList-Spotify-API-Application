@@ -6,15 +6,16 @@
  * For more information, read
  * https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow
  */
-import config from './config'
+
 const express = require('express'); // Express web server framework
 const request = require('request'); // "Request" library
 const cors = require('cors');
 const querystring = require('querystring');
 const cookieParser = require('cookie-parser');
+const config = require('./config');
 
-var client_id = config.clientId;//'c09b2e7a6fd44d4f9f1ea88b022cde38' // Your client id
-var client_secret = config.clientSecret;//'bae2c9ee08a847c38f70da148f18a1cc'; // Your secret
+var client_id = 'c09b2e7a6fd44d4f9f1ea88b022cde38'; // Your client id
+var client_secret = 'bae2c9ee08a847c38f70da148f18a1cc'; // Your secret
 var redirect_uri = 'http://localhost:3000/callback'; // Your redirect uri
 
 /**
